@@ -33,7 +33,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 
 
-```mermaid
+
 sequenceDiagram
 Client ->> Server:Oturum acma istegi gönderilir.
 Server-->>Database: Authentication(Dogrulama).
@@ -44,7 +44,7 @@ Server-->> Database: Bu Kaydı Gir!
 Database-->> Server: Kayit Girilmistir.
 Server->>Client: Kayit Girilmistir.
 
-```
+
 
 
 
