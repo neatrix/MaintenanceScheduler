@@ -32,6 +32,27 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 |Port               |8089             ||
 
 
+## UML diagram
+
+
+
+```mermaid
+sequenceDiagram
+Client ->> Server:Oturum acma istegi gönderilir.
+Server-->>Database: Authentication(Dogrulama).
+Database-->>Server: Authentication(Dogrulama).
+Server->> Client: Ariza Bakim Kaydi Gir.
+Client->> Server: Ariza Bakim Kayit İstegi Gonderilir.
+Server-->> Database: Bu Kaydı Gir!
+Database-->> Server: Kayit Girilmistir.
+Server->>Client: Kayit Girilmistir.
+
+```
+
+And this will produce a flow chart:
+
+```mermaid
+
 ![enter image description here](https://lh3.googleusercontent.com/Zbujoe2qFuJA6E-rEo1YuZL--0PVMPss0w_Cdxvbdw3wBKl_C9cexhgw6ZgvMiY4eOhoNfal2UnbhYmNS2RXC3sePs-wD9MvfV2BX3ekvSymr5-TuTGfD3wWk1bMw22h9i5DC34lnncbGy0rDWZP8iHulti2BfyK542N_zw3eI_X-rkLcvDl5Two6tikUl5bdh6MBXh5fRjbSGJPmuizM6fizfb_K5pGhKOcEoH-b1PadzEhAydGLDtCt6eHTpVwNWb0wpg2MyDb1b9YvsCKdhAIR6AoGpt1Mvlfe7MRcPNBJoz_00ZRhT_cU7JZDaIYaknkfCesYX5u5052dW5aC3sjfJRhaEU27-h6yeRM6mRNeFS1KZwjNXUnL9E0yFwIsVZ63p4sNoBgtui_ax1Ye-8BhsDyLIAhxsx49RUI1zcCAJQwdbI7DiRz5J1MICYEHllzZDcTmvmm3yG2QW0wRdlA3bzdLfRavDR0sCyPRnnSzr8DHX11r1MotIggnPCoT2k_d_R6Fy13btvYULCOi-1Ih2SUdWy8ngvS_GQR63pwcONkmtvz7_Y4nvgdrel8yY1mlwpu6vnR24vjVtJ6LyuOvwswG38qmqKHax8GACCNbiLDiqCz2PGsPKdhTL957PQmCay-Ip80ZrUd-3hHrvDGrX9vd7k-v66Z2wvDYnV3RwLmDV15aa5PSIHnRA=w1743-h763-no?authuser=0)
 
 
