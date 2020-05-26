@@ -34,8 +34,6 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 ## UML diagram
 
-
-
 ```mermaid
 sequenceDiagram
 Client ->> Server:Oturum acma istegi gönderilir.
