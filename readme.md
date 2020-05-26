@@ -22,12 +22,14 @@ Bakimi yapilan ürün esnek olduğu için bir sonraki bakim günüde esnektir.Op
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
 
-|----------------|-------------------------------|
-|Operating System|Windows 10                     |
-|Languaged Used  |Java 1.8                       |
-|Tools           |Eclipse IDE for E. - 2020-03   |   
-|Database        |Mysql 5.6                      |
-|Server          |Apache Tomcat v7.0             |
-|Port            |8089                           |
+|                |                       |                         |
+|----------------|-------------------------------|-----------------------------|
+|Operating System|Windows 10               |           |
+|Languaged Used        |Java 1.8           |          |
+|Tools            |Eclipse IDE for E. - 2020-03 ||
+|Database|Mysql 5.6                  |           |
+|Server          |Apache Tomcat v7.0            |          |
+|Port               |8089             ||
+
 
 
