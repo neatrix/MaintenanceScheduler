@@ -19,7 +19,6 @@ Bakimi yapilan ürün esnek olduğu için bir sonraki bakim günüde esnektir.Op
 
 ## Ariza Bakim Program Yapisi
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
 
 |                |                       |                         |
